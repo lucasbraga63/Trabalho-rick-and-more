@@ -1,5 +1,5 @@
 const Busca = document.getElementById("Busca")
-const ListaCard = document.getElementById("ListaCard")
+const ListaCard = document.getElementById("containerPersonagens")
 const AutoCompletar = document.getElementById("AutoCompletar")
 const textPag = document.getElementById("TextPagAtual")
 let pagAtual = 1
@@ -72,11 +72,19 @@ async function pesquisar() {
 
 }
 function CriarCard(dados) {
-    ListaCard.innerHTML += ` <div class="Card">
-                <img src="${dados.image}" alt="">
-                <span>${dados.name}</span>
-                <span>${dados.status}</span>
-                <span>${dados.species}</span>
-            </div>`
+   
+    ListaCard.innerHTML += `  <div class="cardPersonagem">
+                   <div class="imagem">
+                    <img src="${dados.image}" alt="imagemPesona">
+                   </div>
+                   <div class="informacoes">
+                   <h3>${dados.name}</h3>
+                    <span>${dados.species}</span>
+                    <p>${dados.location.name}</p>
+                    <p style="background-color: ${dados.status == 'alive'? '':'brown'};">${dados.status}</p>
+                    <span>${dados.gender}</span>
+                   </div>
+                </div>`
+                
 }
 BuscarPorPag()
