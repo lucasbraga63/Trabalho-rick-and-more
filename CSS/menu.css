@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ min-height: 100vh;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    min-height: 400px;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 35, 35);
+    padding: 20px;
+    align-items: center;
+}
+
+header .links {
+    width: 70%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+header .links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+header .links a{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(246, 246, 247);
+    transition: 0.5s;
+}
+
+header .links a:hover{
+    color: rgb(17, 176, 224);   
+}
+header .input{
+    width: 30%;
+    height: 20px;
+    gap: 20px;
+    background-color: rgb(247, 248, 248);
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .input input{
+    width: 95%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+header .input .icone{
+    width: 5%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .input .icone img{
+    width: 100%;
+    height: auto;
+}
+

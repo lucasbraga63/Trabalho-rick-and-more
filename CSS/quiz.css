@@ -1,0 +1,10 @@
+:root{
+    --cor-enunciado: rgb(22, 163, 116);
+    --cor-opcoes: color: rgb(18, 107, 107);
+    --fundo-tudo: #ffffff;
+    --borda: 2px solid rgb(160, 158, 158);
+    --borda-container-quiz: 2px solid rgb(12, 168, 134);
+    --fundo-enunciados-e-opcoes: #e6e6e6;
+    --fundo-container-quiz: #e7e4e4;
+
+}
