@@ -7,27 +7,29 @@
     <link rel="stylesheet" href="CSS/menu.css">
     <link rel="stylesheet" href="CSS/style.css">
     <title>Document</title>
+    <script src="/JS/script.js" defer></script>
 </head>
 
 <body>
     <header>
         <div class="links">
             <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Quiz</a></li>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/HTML/quiz.html">Quiz</a></li>
             </ul>
         </div>
          <div class="statusCatalogo">
-                <button>
+                <button onclick="Voltarpag()">
                     < </button>
-                        <span>0/0</span>
-                        <button> > </button>
+                        <span id="TextPagAtual">0/0</span>
+                        <button onclick="Proximapag()"> > </button>
             </div>
         <div class="input">
-            <input type="text" placeholder="Digite o personagem que quer encontrar">
-            <div class="icone">
+            <input list="AutoCompletar" type="text" placeholder="Digite o personagem que quer encontrar" id="Busca">
+            <div class="icone" onclick="pesquisar()">
                 <img src="assets/iconeLupa.png" alt="icon">
             </div>
+            <datalist id="AutoCompletar"></datalist>
         </div>
     </header>
     <main>
@@ -41,10 +43,10 @@
             <div class="titulo">
                 <h2>Nosso catalogo de personagens</h2>
             </div>
-
-            <div class="containerPersonagens">
+            
+            <div class="containerPersonagens" id="containerPersonagens">
                 <div class="cardPersonagem">
-                   <div class="imagem">
+                   <div style="background-color: brown;" class="imagem">
                     <img src="" alt="imagemPesona">
                    </div>
                    <div class="informacoes">
