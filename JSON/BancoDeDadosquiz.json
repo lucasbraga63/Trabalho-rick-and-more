@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Qual é a bordão/frase de efeito mais famosa usada por Rick Sanchez?",
+    "opcoes": [
+      "Wubba Lubba Dub Dub",
+      "Bazinga",
+      "Schwifty Time",
+      "Gotta Catch 'Em All"
+    ],
+    "resposta_correta": "Wubba Lubba Dub Dub"
+  },
+  {
+    "id": 2,
+    "pergunta": "O que a frase 'Wubba Lubba Dub Dub' significa na língua do Povo-Pássaro (Birdperson)?",
+    "opcoes": [
+      "Estou com muita dor, por favor me ajude",
+      "Vamos festejar a noite toda",
+      "Eu sou o homem mais inteligente do universo",
+      "A vida não tem sentido"
+    ],
+    "resposta_correta": "Estou com muita dor, por favor me ajude"
+  },
+  {
+    "id": 3,
+    "pergunta": "Qual personagem de chapéu de palha Beth atira por engano pensando que ele era um parasita de memória?",
+    "opcoes": [
+      "Mr. Poopybutthole",
+      "Pencilvester",
+      "Sleepy Gary",
+      "Tinkles"
+    ],
+    "resposta_correta": "Mr. Poopybutthole"
+  },
+  {
+    "id": 4,
+    "pergunta": "Para onde Rick e Morty mudam após transformarem a Terra inteira em monstros mutantes ('Cronenbergs')?",
+    "opcoes": [
+      "Uma dimensão substituta onde suas versões locais acabaram de morrer",
+      "Dimensão C-137",
+      "Dimensão 35-C",
+      "Dimensão dos Ursos"
+    ],
+    "resposta_correta": "Uma dimensão substituta onde suas versões locais acabaram de morrer"
+  },
+  {
+    "id": 5,
+    "pergunta": "Qual é o nome da criatura azul criada por uma caixa especial cuja única meta é cumprir uma tarefa e depois desaparecer?",
+    "opcoes": [
+      "Mr. Meeseeks",
+      "Squanchy",
+      "Krombopulos Michael",
+      "Gearhead"
+    ],
+    "resposta_correta": "Mr. Meeseeks"
+  },
+  {
+    "id": 6,
+    "pergunta": "Como o cachorro da família Smith, Snuffles, passa a se chamar após ganhar inteligência sobre-humana?",
+    "opcoes": [
+      "Snowball",
+      "King Canino",
+      "CyberDog",
+      "Ruff"
+    ],
+    "resposta_correta": "Snowball"
+  },
+  {
+    "id": 7,
+    "pergunta": "Qual é a profissão original de Jerry Smith no início da série?",
+    "opcoes": [
+      "Publicitário",
+      "Contador",
+      "Professor de História",
+      "Vendedor de carros"
+    ],
+    "resposta_correta": "Publicitário"
+  },
+  {
+    "id": 8,
+    "pergunta": "Qual é o nome do assassino alienígena que adora matar e compra armas de Rick?",
+    "opcoes": [
+      "Krombopulos Michael",
+      "Gearhead",
+      "Birdperson",
+      "Abradolf Lincler"
+    ],
+    "resposta_correta": "Krombopulos Michael"
+  },
+  {
+    "id": 9,
+    "pergunta": "O personagem 'Abradolf Lincler' é uma fusão genética criada por Rick com o DNA de quais duas figuras históricas?",
+    "opcoes": [
+      "Abraham Lincoln e Adolf Hitler",
+      "Albert Einstein e Adolf Hitler",
+      "Abraham Lincoln e Joseph Stalin",
+      "Alexander Graham Bell e Adolf Hitler"
+    ],
+    "resposta_correta": "Abraham Lincoln e Adolf Hitler"
+  },
+  {
+    "id": 10,
+    "pergunta": "O que Morty precisa esconder na própria cavidade anal no episódio piloto para passar pela alfândega interdimensional?",
+    "opcoes": [
+      "Mega Sementes",
+      "Cristais de Isótopo 322",
+      "Matéria Escura Concentrada",
+      "Plutônio 244"
+    ],
+    "resposta_correta": "Mega Sementes"
+  },
+  {
+    "id": 11,
+    "pergunta": "Qual molho promocional do McDonald's de 1998 Rick é obcecado em conseguir?",
+    "opcoes": [
+      "Molho Szechuan",
+      "Molho Barbecue Especial",
+      "Molho Curry Doce",
+      "Molho Teriyaki"
+    ],
+    "resposta_correta": "Molho Szechuan"
+  },
+  {
+    "id": 12,
+    "pergunta": "De acordo com a revelação da série, qual é a verdadeira dimensão de origem do Morty principal (e do Rick Prime)?",
+    "opcoes": [
+      "Dimensão Prime",
+      "Dimensão C-137",
+      "Dimensão J19ζ7",
+      "Dimensão C-132"
+    ],
+    "resposta_correta": "Dimensão Prime"
+  },
+  {
+    "id": 13,
+    "pergunta": "Qual é o nome da megacidade/estação espacial governada e habitada por infinitas versões de Ricks e Mortys?",
+    "opcoes": [
+      "Cidadela dos Ricks",
+      "Nexo Multiversal",
+      "Fortaleza Central",
+      "Universo C-137"
+    ],
+    "resposta_correta": "Cidadela dos Ricks"
+  },
+  {
+    "id": 14,
+    "pergunta": "Qual é o nome do filho híbrido meio-humano meio-gazorpazorpiano que Morty tem acidentalmente?",
+    "opcoes": [
+      "Morty Jr.",
+      "Gazorp",
+      "Morty II",
+      "Snicker"
+    ],
+    "resposta_correta": "Morty Jr."
+  },
+  {
+    "id": 15,
+    "pergunta": "Qual é o nome da entidade alienígena em formato de mente coletiva com quem Rick teve um relacionamento amoroso?",
+    "opcoes": [
+      "Unity",
+      "Supernova",
+      "Jessica",
+      "Gaia"
+    ],
+    "resposta_correta": "Unity"
+  },
+  {
+    "id": 16,
+    "pergunta": "No famoso episódio 'Pickle Rick' (Rick Pepino), quais animais Rick mata primeiro nos esgotos para construir seu corpo mecânico?",
+    "opcoes": [
+      "Baratas e Ratos",
+      "Crocodilos",
+      "Cobras",
+      "Morcegos"
+    ],
+    "resposta_correta": "Baratas e Ratos"
+  },
+  {
+    "id": 17,
+    "pergunta": "Qual é a especialidade médica/profissão da Beth Smith?",
+    "opcoes": [
+      "Cirurgiã cardíaca veterinária (de cavalos)",
+      "Pediatra",
+      "Neurocirurgiã humana",
+      "Clínica geral de pequenos animais"
+    ],
+    "resposta_correta": "Cirurgiã cardíaca veterinária (de cavalos)"
+  },
+  {
+    "id": 18,
+    "pergunta": "Qual dispositivo icônico criado por Rick permite que ele viaje entre diferentes dimensões e realidades paralelas?",
+    "opcoes": [
+      "Arma de Portais (Portal Gun)",
+      "Relógio do Tempo",
+      "Manopla Dimensional",
+      "Teleportador de Bolso"
+    ],
+    "resposta_correta": "Arma de Portais (Portal Gun)"
+  },
+  {
+    "id": 19,
+    "pergunta": "Qual é o nome do parque de diversões miniaturizado que Rick construiu dentro do corpo de um homem sem-teto chamado Ruben?",
+    "opcoes": [
+      "Anatomy Park",
+      "Microverse Park",
+      "Body Land",
+      "Inside Out World"
+    ],
+    "resposta_correta": "Anatomy Park"
+  },
+  {
+    "id": 20,
+    "pergunta": "Qual é a palavra usada constantemente pelo personagem Squanchy que pode substituir quase qualquer verbo ou substantivo?",
+    "opcoes": [
+      "Squanch",
+      "Schwifty",
+      "Plumbus",
+      "Glabaglab"
+    ],
+    "resposta_correta": "Squanch"
+  }
+]

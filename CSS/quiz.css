@@ -6,5 +6,27 @@
     --borda-container-quiz: 2px solid rgb(12, 168, 134);
     --fundo-enunciados-e-opcoes: #e6e6e6;
     --fundo-container-quiz: #e7e4e4;
+}
 
+.Jogo{
+    min-width: 350px;
+    max-width: 400px;
+     min-height: 250px;
+    max-height: 400px;
+    background-color: var(--fundo-container-quiz);
+    border:  var(--borda-container-quiz);
+    border-radius: 5px;
+}
+.Resposta{
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    justify-content: center;
+    margin-top: 40px;
+    gap: 5px;
+
+}
+.Resposta button{
+    background-color: var(--cor-opcoes);
+    min-height: 50px;
+    min-width: 150px;
 }
