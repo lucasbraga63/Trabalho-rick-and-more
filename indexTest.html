@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/JS/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <input list="AutoCompletar" type="search" name="Busca" id="Busca" >
+        <button onclick="pesquisar()">Pesquisar</button>
+        <datalist id="AutoCompletar"></datalist>
+        <button onclick="Voltarpag()">-</button>
+        <span id="TextPagAtual"></span>
+        <button onclick="Proximapag()">+</button>
+        <div class="ListaCard" id="ListaCard">
+            <div class="Card">
+                <img src="" alt="">
+                <span>nome</span>
+                <span>status</span>
+                <span>species</span>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
