@@ -1,32 +1,57 @@
-:root{
+:root {
     --cor-enunciado: rgb(22, 163, 116);
     --cor-opcoes: color: rgb(18, 107, 107);
     --fundo-tudo: #ffffff;
     --borda: 2px solid rgb(160, 158, 158);
     --borda-container-quiz: 2px solid rgb(12, 168, 134);
-    --fundo-enunciados-e-opcoes: #e6e6e6;
+    --fundo-enunciados-e-opcoes: #f8f8f8;
     --fundo-container-quiz: #e7e4e4;
 }
 
-.Jogo{
+.Jogo {
     min-width: 350px;
-    max-width: 400px;
-     min-height: 250px;
+    width: 50%;
+    max-width: 50%;
+    min-height: 250px;
     max-height: 400px;
-    background-color: var(--fundo-container-quiz);
-    border:  var(--borda-container-quiz);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #fdfdfd;
+    border: var(--borda-container-quiz);
     border-radius: 5px;
+    padding: 20px;
 }
-.Resposta{
-    display: grid;
-    grid-template-columns: repeat(2,max-content);
-    justify-content: center;
-    margin-top: 40px;
-    gap: 5px;
 
+.Resposta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 40px;
+    gap: 20px;
 }
-.Resposta button{
-    background-color: var(--cor-opcoes);
-    min-height: 50px;
-    min-width: 150px;
+
+.Pergunta {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f3f2f2;
+    border: 2px solid rgb(134, 134, 134);
+}
+
+.Pergunta h2 {
+    color: #757575;
+    font-size: 20px;
+}
+
+.Resposta button {
+    background-color: #f7f9fa;
+    min-height: 30px;
+    color: #727272;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 100%;
 }
