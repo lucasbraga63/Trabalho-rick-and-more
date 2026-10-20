@@ -19,6 +19,7 @@ main{
     flex-direction: column;
     width: 100%;
     padding: 30px;
+    gap: 100px;
     min-height: 400px;
     text-align: center;
 }
@@ -89,5 +90,30 @@ header .input .icone{
 header .input .icone img{
     width: 100%;
     height: auto;
+}
+
+header .statusCatalogo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+header span {
+    font-size: larger;
+    color: rgb(247, 248, 248);
+    font-family: "PT Sans Caption", monospace;
+}
+
+header .statusCatalogo button{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(0, 162, 255);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
 }
 
